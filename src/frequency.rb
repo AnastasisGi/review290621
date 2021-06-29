@@ -9,8 +9,12 @@ def format(freq_pool,min,max)
         if entry < min 
             output << min 
             
+        elsif
+            entry > max 
+            output << max
         else
-            output<<entry
+
+            output << entry
         end
 
 
